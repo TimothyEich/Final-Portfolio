@@ -32,84 +32,45 @@ export default function Uses() {
         <title>Setup - Timothy Eichenlaub</title>
         <meta
           name="description"
-          content="Software I use, gadgets I love, and other things I recommend."
+          content="Technology I use, Tools I love, and Software I find useful."
         />
       </Head>
       <SimpleLayout
-        title="Software I use, gadgets I love, and other things I recommend."
+        title="Technology I use, Tools I love, and Software I find useful."
         intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
-            <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-              I was using an Intel-based 16” MacBook Pro prior to this and the
-              difference is night and day. I’ve never heard the fans turn on a
-              single time, even under the incredibly heavy loads I put it
-              through with our various launch simulations.
+            <Tool title="Mac Mini, M2, 24GB RAM (2023)">
+              I just purchased this Mac Mini to start learning Swift and I'm still getting used to operating a Mac as I have always used Windows before. But so far it has been really fast and an excellent addition to my work tools.
             </Tool>
-            <Tool title="Apple Pro Display XDR (Standard Glass)">
-              The only display on the market if you want something HiDPI and
-              bigger than 27”. When you’re working at planetary scale, every
-              pixel you can get counts.
+            <Tool title="OMEN Desktop, Intel Core i7-8700, 16GB RAM (2021)">
+              Yes, I had two computers that I actively use on a daily basis. This computer is what I started off learning coding on. It is still plenty fast for me to do what I need to do daily and was a great starter PC while learning SWD. I might however transition to using the Mac Mini for full time coding in the near future.
             </Tool>
-            <Tool title="IBM Model M SSK Industrial Keyboard">
-              They don’t make keyboards the way they used to. I buy these any
-              time I see them go up for sale and keep them in storage in case I
-              need parts or need to retire my main.
+            <Tool title="FireLegend 27 inch Curve Screen Monitor x3 (2023)">
+              I have 3 of these monitors expanding the length of my desk. Two of them are connected to my OMEN Desktop and the other to my Mac Mini. They have excellent graphics and give me plenty of screen space to be able to easily manage having all of the windows open that I use on a daily basis.
             </Tool>
-            <Tool title="Apple Magic Trackpad">
-              Something about all the gestures makes me feel like a wizard with
-              special powers. I really like feeling like a wizard with special
-              powers.
+            <Tool title="UpLife Desk (2023)">
+              I bought this desk recently and it has been the best upgrade of my tools as of late. I can stand up when I feel the need to and it will easily bring my computers up with me. It is a really nice way to wake the brain up, I notice if I'm struggling on something I will lift my desk and stand up which allows me to get a different perspective sometimes. 
             </Tool>
-            <Tool title="Herman Miller Aeron Chair">
-              If I’m going to slouch in the worst ergonomic position imaginable
-              all day, I might as well do it in an expensive chair.
+            <Tool title="Shaquille O'neal Office Chair (2021)">
+              This is the old reliable, comfortable with a lumbar support built in for those long nights of coding. I feel like a CEO of a Fortune 500 company in this chair sometimes. 
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="Sublime Text 4">
-              I don’t care if it’s missing all of the fancy IDE features
-              everyone else relies on, Sublime Text is still the best text
-              editor ever made.
+            <Tool title="Visual Studios Code">
+              I know most developers use this but I figured it is the foundation of my tools I use daily so I will list it first. 
             </Tool>
-            <Tool title="iTerm2">
-              I’m honestly not even sure what features I get with this that
-              aren’t just part of the macOS Terminal but it’s what I use.
+            <Tool title="Google">
+              Okay just hear me out. If you are a devloper and don't use google then you aren't challenging yourself enough.
             </Tool>
-            <Tool title="TablePlus">
-              Great software for working with databases. Has saved me from
-              building about a thousand admin interfaces for my various projects
-              over the years.
+            <Tool title="Tailwind UI">
+              This has been great for getting pre-made components. I once had a mentor tell me not to re-invent the wheel and it makes sense. I could easily make most of these components but it helps save time and I can edit them to fit what I need. 
             </Tool>
           </ToolsSection>
           <ToolsSection title="Design">
-            <Tool title="Figma">
-              We started using Figma as just a design tool but now it’s become
-              our virtual whiteboard for the entire company. Never would have
-              expected the collaboration features to be the real hook.
-            </Tool>
-          </ToolsSection>
-          <ToolsSection title="Productivity">
-            <Tool title="Alfred">
-              It’s not the newest kid on the block but it’s still the fastest.
-              The Sublime Text of the application launcher world.
-            </Tool>
-            <Tool title="Reflect">
-              Using a daily notes system instead of trying to keep things
-              organized by topics has been super powerful for me. And with
-              Reflect, it’s still easy for me to keep all of that stuff
-              discoverable by topic even though all of my writing happens in the
-              daily note.
-            </Tool>
-            <Tool title="SavvyCal">
-              Great tool for scheduling meetings while protecting my calendar
-              and making sure I still have lots of time for deep work during the
-              week.
-            </Tool>
-            <Tool title="Focus">
-              Simple tool for blocking distracting websites when I need to just
-              do the work and get some momentum going.
+            <Tool title="Canva">
+              Anytime I need a particular image edited, or a Logo made, or need to make a background transparent, Canva has been my go to application.
             </Tool>
           </ToolsSection>
         </div>

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
+
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
@@ -15,9 +16,8 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-pink-500 dark:text-zinc-200 dark:hover:text-pink-500"
-      >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-pink-500" />
+        className="group flex text-sm font-medium text-zinc-800 transition hover:text-yellow-500 dark:text-zinc-200 dark:hover:text-pink-500">
+        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-yellow-500"/>
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -87,7 +87,7 @@ export default function About() {
               <SocialLink
                 href="mailto:timothy.eichenlaub@gmail.com"
                 icon={MailIcon}
-                className="mt-8 border-t border-yellow-500 pt-8 dark:border-pink-700/40">
+                className="mt-8 border-t border-yellow-400 pt-8 dark:border-pink-500">
                 timothy.eichenlaub@gmail.com
               </SocialLink>
             </ul>
