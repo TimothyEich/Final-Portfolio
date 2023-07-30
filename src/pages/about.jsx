@@ -64,7 +64,7 @@ export default function About() {
             <h2 className='text-2xl font-bold text-zinc-800'>Pronounced [Ay-Ken-Lob]</h2>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-300">
               <p>
-              I’m a Veteran, Husband, World's Best Father and Full Stack Software Developer in Oklahoma City.
+              I’m a Veteran, Husband, World’s Best Father and Full Stack Software Developer in Oklahoma City.
               </p>
               <p>
               In 2019 I took a big leap of faith when I became a stay at home dad and started learning my first computer languages.  I not only loved my time with my kids, time that I wasn't able to have in the military and later jobs, but I also LOVED coding and the challenges it presented. So I did what I typically do and I dove in head first. What started as self learning C#, turned to night classes for Unity, turned to a 9 month Full Stack Software Development program with Southern Careers Institute.
