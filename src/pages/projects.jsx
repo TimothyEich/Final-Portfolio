@@ -5,7 +5,7 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import BeHerdLogo from '@/images/logos/BeHerdLogo.png'
 import IDCard from '@/images/logos/IDCard.jpg'
-import NonProAdCo from '@/images/logos/NonProAdCo.png'
+import NonProAdCo from '@/images/logos/Nonproadco.png'
 
 const projects = [
   {
