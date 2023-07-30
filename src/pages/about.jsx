@@ -61,7 +61,7 @@ export default function About() {
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             Timothy Eichenlaub 
             </h1>
-            <h2 className='text-2xl font-bold text-zinc-800'>Pronounced [Ay-Ken-Lob]</h2>
+            <h2 className='text-2xl font-bold text-zinc-800 dark:text-zinc-100'>Pronounced [Ay-Ken-Lob]</h2>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-300">
               <p>
               I’m a Veteran, Husband, World’s Best Father and Full Stack Software Developer in Oklahoma City.
