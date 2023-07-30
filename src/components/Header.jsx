@@ -198,7 +198,7 @@ function ModeToggle() {
       onClick={toggleMode}
     >
       <SunIcon className="h-6 w-6 fill-yellow-400 stroke-zinc-500 transition group-hover:fill-yellow-500 group-hover:stroke-yellow-400 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-pink-700 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:" />
-      <MoonIcon className="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-pink-700 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-50" />
+      <MoonIcon className="hidden h-6 w-6 fill-pink-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-pink-700 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-50" />
     </button>
   )
 }
