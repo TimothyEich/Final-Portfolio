@@ -3,13 +3,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
+
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import bmc from '@/images/logos/bmc-logo.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -79,7 +79,7 @@ function ArrowDownIcon(props) {
 function SocialLink({ icon: Icon, ...props }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+      <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-yellow-400 dark:fill-zinc-400 dark:group-hover:fill-pink-500" />
     </Link>
   )
 }
@@ -113,7 +113,7 @@ function Resume() {
   ]
 
   return (
-    <div className="githubrounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+    <div className="githubrounded-2xl border border-yellow-400 p-8  dark:border-pink-500/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Work</span>
@@ -149,9 +149,11 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      <Button className="group mt-6 w-full"><ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+      <a href='src/images/photos/TimResume.pdf' download={"TimResume.pdf"} variant="secondary">
         Download Resume
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+        
+      </a>
       </Button>
     </div>
   )
@@ -184,7 +186,7 @@ function Photos() {
   )
 }
 
-export default function Home({ articles }) {
+export default function Home({  }) {
   return (
     <>
       <Head>
@@ -225,8 +227,8 @@ export default function Home({ articles }) {
       </Container>
       <Photos />
       <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
+        <div className="mx-[20%] grid max-w-xl grid-cols-1 lg:max-w-none lg:grid-cols-1">
+          <div className="space-y-10">
             <Resume />
           </div>
         </div>
