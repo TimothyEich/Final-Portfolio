@@ -90,7 +90,7 @@ export default function About() {
                 href="mailto:timothy.eichenlaub@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-yellow-400 pt-8 dark:border-pink-500">
-                timothy.eichenlaub@gmail.com
+                Send me an Email
               </SocialLink>
             </ul>
           </div>
