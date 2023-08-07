@@ -199,7 +199,7 @@ function ModeToggle() {
       className="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/30 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/70"
       onClick={toggleMode}
     >
-      <SunIcon className="h-6 w-6 fill-yellow-500 stroke-zinc-500 transition group-hover:fill-yellow-500 group-hover:stroke-yellow-400 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-yellow-600 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:" />
+      <SunIcon className="h-6 w-6 fill-yellow-500 stroke-zinc-500 transition group-hover:fill-yellow-500 group-hover:stroke-yellow-400 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-yellow-700 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:" />
       <MoonIcon className="hidden h-6 w-6 fill-pink-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-pink-700 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-50" />
     </button>
   )
