@@ -248,7 +248,7 @@ export default function Home({  }) {
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://www.linkedin.com/in/timothy-eichenlaub-a4a686228/"
+              href="https://www.linkedin.com/in/timothy-eichenlaub/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
