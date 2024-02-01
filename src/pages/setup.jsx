@@ -65,7 +65,7 @@ export default function Uses() {
               Okay, just hear me out. If you're a developer and aren't using google, then are you even challenging yourself?
             </Tool>
             <Tool title="Tailwind UI">
-              I once had a mentor tell me not to re-invent the wheel and it has really stuck with me. This has been great for getting pre-made components that I can easily edit and helping me save time. 
+              A great resource to utilize for small premade components. 
             </Tool>
           </ToolsSection>
           <ToolsSection title="Design">
