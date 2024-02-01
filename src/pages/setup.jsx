@@ -53,9 +53,6 @@ export default function Uses() {
             <Tool title="UpLift Desk (2023)">
               This has been the best upgrade as of late. It's a standing work desk that came with several organizers and handy attachments. If I'm struggling on something, being able to stand up is a nice way to get the juices flowing and gain a different perspective. 
             </Tool>
-            <Tool title="Shaquille O'neal Office Chair (2021)">
-              This is "The Old Reliable." It's a comfortable chair with a lumbar support built in for those long nights of coding. I feel like a CEO of a Fortune 500 company in this chair sometimes. 
-            </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
             <Tool title="Visual Studios Code">
