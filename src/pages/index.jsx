@@ -45,7 +45,7 @@ const projects = [
   {
     name: 'Coming Soon!',
     description:
-      'I am currently working on a full stack Netflix Clone, it will utilize React, Tailwind CSS, Next.js, Prisma, MongoDB, and NextAuth. Keep an eye out for this project, as it should be completed by the 21st of Sept!',
+      'I am currently working on a full stack Netflix Clone, it will utilize React, Tailwind CSS, Next.js, Prisma, MongoDB, and NextAuth. Keep an eye out for this project as I plan to put a creative twist on it!',
     link: { href: 'https://github.com/TimothyEich', label: 'https://github.com/TimothyEich' },
     logo: NetflixLogo,
   },
